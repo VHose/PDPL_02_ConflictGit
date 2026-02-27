@@ -4,6 +4,8 @@ from abc import ABC, abstractmethod
 class Bentuk(ABC):
     @abstractmethod
     def hitung_luas(self):
+        a=7
+        print(a)
         pass
 
     def __str__(self):
